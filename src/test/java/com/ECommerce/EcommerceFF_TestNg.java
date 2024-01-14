@@ -32,8 +32,7 @@ public class EcommerceFF_TestNg extends Library {
 	@Test(priority=0)
 	public void LauchBrowser() throws IOException {
 		ReadPropertiesFile();
-		System.setProperty("webdriver.gecko.driver",
-				"D:\\JavaWorkSpace\\Selenium_Projects\\src\\test\\resources\\firefoxdriver-v33\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver",objProperties.getProperty("FireFoxDriverPath"));
 		driver = new FirefoxDriver();
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
