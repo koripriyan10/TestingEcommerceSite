@@ -31,7 +31,27 @@ public class WebElementLocators {
 	public static By SliderElement = By.xpath("//div[contains(text(),'Resizable box, starting at 200x200')]/following-sibling::span");
 	public static By Slider = By.xpath("//input[@type='range']");
 	public static By ResizeElement = By.xpath("//div[contains(text(),'Resizable box, starting at 200x200')]/following-sibling::span");
-
+	public static By SwitchToLink = By.xpath("//li/a[contains(text(),'SwitchTo')]");
+	public static By AlertsLink = By.xpath("//ul[@class='dropdown-menu']/li/a[contains(text(),'Alerts')]");
+	public static By Frameslnk = By.xpath("//ul[@class='dropdown-menu']/li/a[contains(text(),'Frames')]");
+	public static By AlertWithOk = By.xpath("//li/a[@href='#OKTab' and contains(text(),'Alert with OK ')]");
+	public static By AlertWithOkAndCancel = By.xpath("//li/a[@href=\"#CancelTab\" and contains(text(),'Alert with OK & Cancel')]");
+	public static By AlertWithTextBox = By.xpath("//li/a[@href='#Textbox' and contains(text(),'Alert with Textbox')]");
+	public static By AlertsButtonlnk =  By.xpath("//button[contains(text(),'click the button to display an  alert box:')]");
+	public static By AlertsWithConfirmButtonlnk = By.xpath("//button[contains(text(),'click the button to display a confirm box')]");
+	public static By AlertsWithTextBoxlnk = By.xpath("//button[contains(text(),'click the button to display a confirm box')]");
+	public static By AlertsWithPromptlnk = By.xpath("//button[contains(text(),'click the button to demonstrate the prompt box')]");
+	public static By SingleIframelnk = By.xpath("//a[contains(text(),'Single Iframe')]"); 
+	public static By IframeIframelnk = By.xpath("//a[contains(text(),'Iframe with in an Iframe')]"); 
+	public static By TextBoxInsideFrame = By.xpath("//input[@type='text']"); 
+	public static By MultiFrame = By.xpath("//iframe[@src='MultipleFrames.html']"); 
+	public static By SingleFrame = By.xpath("//iframe[@style='float: left;height: 250px;width: 400px']");
+	public static By DatePicker = By.xpath("//input[@id='datepicker1']");
+	public static By DateSel = By.xpath("//table[@class='ui-datepicker-calendar']/tbody/tr/td/a[text()=5]");
+	public static By MonthYearSel = By.xpath("//a[@title='Next']");
+	public static By Morelnk = By.xpath("//a[@class='dropdown-toggle' and contains(text(),'More')]");
+	
+	
 	public static By Registerlink = By.xpath("//a[contains(text(),'REGISTER')]");
 	public static By firstName = By.xpath("//input[@name='firstName']");
 	public static By lastName = By.xpath("//input[@name='lastName']");

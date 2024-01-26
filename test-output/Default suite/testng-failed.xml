@@ -5,8 +5,8 @@
     <classes>
       <class name="com.WebSiteTesting.WebTesting">
         <methods>
+          <include name="DatePicker"/>
           <include name="beforeSuite"/>
-          <include name="Resizable"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.WebSiteTesting.WebTesting -->
